@@ -1,0 +1,127 @@
+/* LogIn.css */
+
+/* General container for the login page */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #e9c46a;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Message display */
+.message {
+  color: #e74c3c;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #264653;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: border 0.3s ease;
+}
+
+/* Focus effect on inputs */
+.form-group input:focus {
+  border-color: #264653;
+  outline: none;
+}
+
+/* Button styles */
+button {
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.btn-submit {
+  background-color: #264653;
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: #264653;
+}
+
+.btn-change-password {
+  background-color: #264653;
+  color: white;
+}
+
+.btn-change-password:hover {
+  background-color: #264653;
+}
+
+.btn-logout {
+  background-color: #264653;
+  color: black;
+}
+
+.btn-logout:hover {
+  background-color: #264653;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 600px) {
+  .login-container {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-group label {
+    font-size: 0.9rem;
+  }
+
+  .form-group input,
+  button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+
+
+.mt-4 {
+  margin-top: 4rem;
+}
